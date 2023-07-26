@@ -47,10 +47,8 @@ See [Kubernetes Extenison Integration](#integration-with-kubernetes-extension-fo
 Once you click the `Next` button from the home page, you are prompted to input your login credentials if you haven't logged in before. If you have logged in previously, clicking  on the `Next` button will take you to directly to the cluster details page. If you want to change login credentials after you have already logged in, simply click on the `Change API Key` button to take you back to the login page.
 
 To Login, you have to enter your palette API key as well as the console URL, to which you will be logging in. If you have a self hosted palette solution, your console URL might be different than "https://console.spectrocloud.com/".
-<video controls>
-  <source src="login.mov" type="video/mov">
-</video>
 
+https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/3c6fb6e6-02e5-4331-aedb-b60c7846e8a0
 
 ### Create New Virtual Clusters
 
@@ -58,7 +56,7 @@ Once you are in your desired project and cluster group configuration, click on t
 
 > **Note:** If there are validation errors present in the input upon pressing the `Create Cluster` button, the virtual cluster will not be created and message describing the relevant errors will be show.
 
-![](docs/createCluster.mov)
+https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/9b32159d-5461-45b3-a92b-04009e404a27
 
 ### Download Kubeconfig
 
@@ -69,7 +67,9 @@ To download the Kubeconfig, simply select a virtual cluster for and click  on th
 This downloaded Kubeconfig file can be used to register the virtual cluster with the Kubernetes Extension for VS Code, to explore the components of the cluster in a file tree type UI and to apply `kubectl` commands form inside VS Code using the UI provided.
 After the Kubeconfig is downloaded, a file selector menu from inside VS Code is launched if you have the Kubernetes Extension installed. Here, you can specify the path to the downloaded Kubeconfig file to register the virtual cluster with the Kubernetes Extension.
 
-![](docs/downloadCluster.mov)
+https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/328ab68e-7813-4b3f-ad45-e6442ec02e28
+
+
 
 > **Note:** The usage of the Kubernetes VS Code Extension is beyond the scope of this project. To look at how to use the VS Code file explorer view and apply `kubectl` commands from inside VS Code, please look at the [docs](https://code.visualstudio.com/docs/azure/kubernetes) of the Kubernetes Extension for VS Code.
 
@@ -78,23 +78,25 @@ After the Kubeconfig is downloaded, a file selector menu from inside VS Code is 
 
 The extension can also be used to delete virtual clusters. After selecting the required virtual cluster, simply click on the `Delete` button to delete the virtual cluster. A pop up will appear asking you to confirm your decision. Click the `Yes` button in the popup to confirm your decision and delete the selected virtual cluster.
 
-![](docs/deleteCluster.mov)
+https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/06b1d738-bdac-4bda-99e7-684950116df8
 
 ### Resize Virtual Cluster
 
 You can select a virtual cluster and click on the `Resize` button to launch the resize virtual cluster page. Here, you can specify the new number of CPUs,Memory(in GBs) and Storage(in GBs) that the cluster should be resized to. After you have assigned the new values, you can click on the `Resize Cluster` button to resize the selected virtual cluster.
 
-![](docs/resizeCluster.mov)
+https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/40566746-1051-4b09-ad69-85118697b44a
 
 ### Pause Virtual Cluster
 
 You can select a virtual cluster that is in the running state, and click on the `Pause` button to pause the virtual cluster. The virtual cluster gets paused and does not use any resources in this state.
-![](docs/pauseCluster.mov)
+
+https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/d071941c-6140-43ce-b142-9e3778190e0a
 
 ### Resume Virtual Cluster
 
 You can select a virtual cluster that is in the paused state and click on the `Resume` button to bring the cluster back into a running state.
-![](docs/resumeCluster.mov)
+
+https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/1f37b21c-dbc0-44b1-b8c6-775a52cf5f36
 
 ### Change Projects And Cluster Groups
 The extension lists all the available projects and virtual clusters available to your account (associated with your api key) as a drop down. To change between different projects or cluster groups, simply select the desired option from the dropdown provided.
