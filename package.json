@@ -1,12 +1,14 @@
 {
-  "name": "palette-pde-plugin",
+  "name": "extension-palette",
   "displayName": "Palette PDE Plugin",
   "description": "An extension to quickly manage Virtual Clusters.",
+  "publisher": "spectrocloud",
+  "icon": "./icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/spectrocloud/vscode-pde-plugin.git"
   },
-  "version": "0.0.1",
+  "version": "2.0.0",
   "engines": {
     "vscode": "^1.75.0"
   },
