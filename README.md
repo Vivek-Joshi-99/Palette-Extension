@@ -47,7 +47,10 @@ See [Kubernetes Extenison Integration](#integration-with-kubernetes-extension-fo
 Once you click the `Next` button from the home page, you are prompted to input your login credentials if you haven't logged in before. If you have logged in previously, clicking  on the `Next` button will take you to directly to the cluster details page. If you want to change login credentials after you have already logged in, simply click on the `Change API Key` button to take you back to the login page.
 
 To Login, you have to enter your palette API key as well as the console URL, to which you will be logging in. If you have a self hosted palette solution, your console URL might be different than "https://console.spectrocloud.com/".
-![](docs/Login.png)
+<video controls>
+  <source src="login.mov" type="video/mp4">
+</video>
+
 
 ### Create New Virtual Clusters
 
