@@ -75,6 +75,8 @@ export class HelloWorldPanel {
 
     //Set homedir to get relative path to the users home directory
     this.homedir = os.homedir();
+
+    this._panel.iconPath = Uri.joinPath(extensionUri,"out/logo.png");
   }
 
   /**
@@ -102,10 +104,12 @@ export class HelloWorldPanel {
           enableScripts: true,
           // Restrict the webview to only load resources from the `out` directory
           localResourceRoots: [Uri.joinPath(extensionUri, "out")],
+          retainContextWhenHidden: true,
         }
       );
 
       HelloWorldPanel.currentPanel = new HelloWorldPanel(panel, extensionUri);
+      
     }
   }
 
@@ -149,7 +153,7 @@ export class HelloWorldPanel {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src ${webview.cspSource}; font-src ${webview.cspSource}; script-src 'nonce-${nonce}';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src ${webview.cspSource}; img-src ${webview.cspSource}; font-src ${webview.cspSource}; script-src 'nonce-${nonce}';">
         <link rel="stylesheet" type="text/css" href="${styleUri}">
         <script type="module" nonce="${nonce}" src="${webviewUri}"></script>
         <title>Palette Wizard</title>
