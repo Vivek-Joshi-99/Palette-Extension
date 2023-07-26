@@ -48,7 +48,7 @@ Once you click the `Next` button from the home page, you are prompted to input y
 
 To Login, you have to enter your palette API key as well as the console URL, to which you will be logging in. If you have a self hosted palette solution, your console URL might be different than "https://console.spectrocloud.com/".
 <video controls>
-  <source src="login.mov" type="video/mp4">
+  <source src="login.mov" type="video/mov">
 </video>
 
 
