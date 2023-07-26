@@ -346,6 +346,8 @@ export class HelloWorldPanel {
                 this.error = delObj.error as string;
                 this.success = delObj.success;
                 webview.html = this._getWebviewContent(this._panel.webview, this.extensionUri, "login");
+              } else {
+                webview.html = this._getWebviewContent(this._panel.webview, this.extensionUri, "login");
               }
             });
             break;
