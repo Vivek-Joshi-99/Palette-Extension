@@ -48,7 +48,7 @@ Once you click the `Next` button from the home page, you are prompted to input y
 
 To Login, you have to enter your palette API key as well as the console URL, to which you will be logging in. If you have a self hosted palette solution, your console URL might be different than "https://console.spectrocloud.com/".
 
-https://github.com/spectrocloud/vscode-pde-plugin/assets/46157461/3c6fb6e6-02e5-4331-aedb-b60c7846e8a0
+https://github.com/Vivek-Joshi-99/Palette-Extension/assets/46157461/449868e1-b4f8-45b7-9fe6-4145a9c8af4e
 
 ### Create New Virtual Clusters
 
@@ -67,7 +67,7 @@ To download the Kubeconfig, simply select a virtual cluster for and click  on th
 This downloaded Kubeconfig file can be used to register the virtual cluster with the Kubernetes Extension for VS Code, to explore the components of the cluster in a file tree type UI and to apply `kubectl` commands form inside VS Code using the UI provided.
 After the Kubeconfig is downloaded, a file selector menu from inside VS Code is launched if you have the Kubernetes Extension installed. Here, you can specify the path to the downloaded Kubeconfig file to register the virtual cluster with the Kubernetes Extension.
 
-
+https://github.com/Vivek-Joshi-99/Palette-Extension/assets/46157461/8df7b127-404e-4e4d-8578-1ade817555f3
 
 > **Note:** The usage of the Kubernetes VS Code Extension is beyond the scope of this project. To look at how to use the VS Code file explorer view and apply `kubectl` commands from inside VS Code, please look at the [docs](https://code.visualstudio.com/docs/azure/kubernetes) of the Kubernetes Extension for VS Code.
 
@@ -90,8 +90,6 @@ You can select a virtual cluster that is in the running state, and click on the 
 
 https://github.com/Vivek-Joshi-99/Palette-Extension/assets/46157461/6f9a8fd8-7a81-4228-b3a3-ec167059f134
 
-rocloud/vscode-pde-plugin/assets/46157461/d071941c-6140-43ce-b142-9e3778190e0a
-
 ### Resume Virtual Cluster
 
 You can select a virtual cluster that is in the paused state and click on the `Resume` button to bring the cluster back into a running state.
@@ -100,8 +98,8 @@ https://github.com/Vivek-Joshi-99/Palette-Extension/assets/46157461/b448d63e-223
 
 ### Change Projects And Cluster Groups
 The extension lists all the available projects and virtual clusters available to your account (associated with your api key) as a drop down. To change between different projects or cluster groups, simply select the desired option from the dropdown provided.
-![](docs/changeProject.mov)
 
+https://github.com/Vivek-Joshi-99/Palette-Extension/assets/46157461/39f4fda4-1f6b-4812-a8fd-8903e6c2b220
 
 ## Debugging
 To debug the extension in your VS Code environment, complete the following steps:
